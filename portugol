@@ -1,0 +1,18 @@
+Algoritmo "HoraDeAcordar"
+
+Var
+   hora: inteiro
+
+Inicio
+   escreva("Digite a hora atual: ")
+   leia(hora)
+
+   se (hora >= 6) e (hora <= 8) entao
+      escreva("Hora de acordar!")
+   senao se (hora > 8) entao
+      escreva("Está na hora!")
+   senao
+      escreva("Ok, apenas um cochilo")
+   fimse
+
+Fimalgoritmo
