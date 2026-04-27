@@ -1,0 +1,11 @@
+package anotacoes;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Tabela {
+
+    String value(); // recebe o nome da tabela
+
+}
